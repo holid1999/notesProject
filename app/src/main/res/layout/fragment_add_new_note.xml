@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddNewNoteFragment">
+
+    <TextView
+        android:text="New Note"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="12dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/et_title"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/colors"
+        android:hint="Enter title"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:textColorHint="@color/white"
+        android:layout_marginVertical="12dp"
+        android:textStyle="bold"
+        android:layout_width="300dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:background="@drawable/colors"
+        android:hint="Enter description"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="12dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/colors"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+</LinearLayout>
